@@ -1,0 +1,25 @@
+# Please add your name to one of the teams
+
+***Bash team***
+...
+
+***Python team***
+...
+
+***Web interface team***
+...
+
+
+Participants:
+
+Jessica Andreani
+Fanny Bonachera
+Stéphane Bourg
+Dominique Douguet
+Raphael Guerois
+Yasaman Karami
+Pascal Krezel
+Florent Langenfeld
+David Mignon
+Chloé Quignot
+Pierre Tufféry

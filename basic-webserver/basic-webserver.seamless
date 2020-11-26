@@ -1,0 +1,209 @@
+{
+  "connections": [
+    {
+      "source": [
+        "a"
+      ],
+      "target": [
+        "add",
+        "a"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "b"
+      ],
+      "target": [
+        "add",
+        "b"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "add"
+      ],
+      "target": [
+        "c"
+      ],
+      "type": "connection"
+    }
+  ],
+  "lib": [],
+  "nodes": [
+    {
+      "celltype": "plain",
+      "checksum": {
+        "value": "d31923282290a41f9e2fcda93feb36aafdc11827f9bb4b63e11b2c099cf17325"
+      },
+      "datatype": "mixed",
+      "mount": {
+        "authority": "file",
+        "mode": "rw",
+        "path": "a.txt",
+        "persistent": true
+      },
+      "path": [
+        "a"
+      ],
+      "share": {
+        "path": null,
+        "readonly": false
+      },
+      "type": "cell"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "c7345fa9caff8986101b28509b2e32097c5c0f4a154f3f108dc853fc3fe9e7e8",
+        "input": "a5ec05ec2c27aee6af32664953c6747327f0c13e9fe6dba872cb59d7ef65e404",
+        "input_buffer": "a5ec05ec2c27aee6af32664953c6747327f0c13e9fe6dba872cb59d7ef65e404",
+        "result": "f71463311ac046bb9c5ccc76dde8c833b598f379f71d4411ecfc811a9ee051f4",
+        "schema": "13eaec72ac751c6131e4bd1d7a608875c8ccb7053df645f9ec9b7fd5c305753c"
+      },
+      "compiled": false,
+      "debug": false,
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "python",
+      "mount": {
+        "code": {
+          "authority": "file",
+          "mode": "rw",
+          "path": "code.py",
+          "persistent": true
+        }
+      },
+      "path": [
+        "add"
+      ],
+      "pins": {
+        "a": {
+          "celltype": "mixed"
+        },
+        "b": {
+          "celltype": "mixed"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "celltype": "plain",
+      "checksum": {
+        "value": "8e843baef228089dc379d4c3b6e28c1bb5d44eee257f1206b5dfee44ef6b05ad"
+      },
+      "datatype": "mixed",
+      "mount": {
+        "authority": "file",
+        "mode": "rw",
+        "path": "b.txt",
+        "persistent": true
+      },
+      "path": [
+        "b"
+      ],
+      "share": {
+        "path": null,
+        "readonly": false
+      },
+      "type": "cell"
+    },
+    {
+      "celltype": "plain",
+      "checksum": {
+        "value": "f71463311ac046bb9c5ccc76dde8c833b598f379f71d4411ecfc811a9ee051f4"
+      },
+      "datatype": "mixed",
+      "mount": {
+        "authority": "file",
+        "mode": "w",
+        "path": "c.txt",
+        "persistent": true
+      },
+      "path": [
+        "c"
+      ],
+      "share": {
+        "path": null,
+        "readonly": true
+      },
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "56c49d4a67f0913c0318594c40d7377723a1d0e350cad4f1da0d66baa0f0cfd1"
+      },
+      "datatype": "mixed",
+      "file_extension": "js",
+      "mimetype": "application/javascript",
+      "mount": {
+        "authority": "file",
+        "mode": "rw",
+        "path": "seamless-client.js",
+        "persistent": true
+      },
+      "path": [
+        "client_js"
+      ],
+      "share": {
+        "path": "seamless-client.js",
+        "readonly": true
+      },
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "539a196ff09de6bbfbfc9e99c84c0edf224c2dd97956313f2e1a908a2d5930de"
+      },
+      "datatype": "mixed",
+      "file_extension": "html",
+      "mimetype": "text/html",
+      "mount": {
+        "authority": "file",
+        "mode": "rw",
+        "path": "index.html",
+        "persistent": true
+      },
+      "path": [
+        "html"
+      ],
+      "share": {
+        "path": "index.html",
+        "readonly": true
+      },
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "1516046ddbbd95ca49a730f1aeb5dc633e1eb14574a8866d90fa34b1609a44a6"
+      },
+      "datatype": "mixed",
+      "file_extension": "js",
+      "mimetype": "application/javascript",
+      "mount": {
+        "authority": "file",
+        "mode": "rw",
+        "path": "index.js",
+        "persistent": true
+      },
+      "path": [
+        "js"
+      ],
+      "share": {
+        "path": "index.js",
+        "readonly": true
+      },
+      "type": "cell"
+    }
+  ],
+  "params": {
+    "share_namespace": "ctx"
+  }
+}

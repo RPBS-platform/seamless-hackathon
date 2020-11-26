@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Sequence alignment</title>
+</head>
+<body>
+    <script type="text/javascript" src="seamless-client.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <br/>
+    <table>
+    <tr>
+        <th>Sequence 1</th>
+        <th>Sequence 2</th>
+    </tr>
+    <tr>
+        <th><textarea id="seq1" cols=50 rows=10></textarea></th>
+        <th><textarea id="seq2" cols=50 rows=10></textarea></th>
+    </tr>
+    <tr>
+        <th><br></th>
+    </tr>
+    <tr>
+        <th>Waterman-Smith alignment</th>
+        <th>Statistical significance</th>
+    </tr>
+    <tr>
+        <th><textarea id="alignment" cols=50 rows=40 readonly></textarea></th>
+        <th>
+            <table style="margin-left:auto;margin-right:auto;">
+            <tr><th>Z-score</th></tr>
+            <tr><th><input id="z" readonly></input></th></tr>
+            <tr><th><br></th></tr>
+            <tr><th>p-value</th></tr>
+            <tr><th><input id="p" readonly></input></th></tr>
+            </table>
+        </th>
+    </tr>
+    </table>
+</body>
