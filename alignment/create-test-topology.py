@@ -79,8 +79,7 @@ ctx.test2.scrambled2.mount("team-python/output/scrambled2.txt","w")
 ctx.test2.alignment = Cell("text")
 ctx.test2.alignment.mount("team-python/alignment.water")
 
-ctx.test2.scrambled_scores = ctx.align_scrambled
-ctx.test2.scrambled_scores.celltype = "text"
+ctx.test2.scrambled_scores = Cell("text")
 ctx.test2.scrambled_scores.mount("team-python/scrambled_scores.txt", "w")
 
 ctx.analyze_alignment_scores = Transformer()
