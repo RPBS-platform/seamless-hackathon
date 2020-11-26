@@ -105,7 +105,7 @@ ctx.alignment = Cell("text")
 ctx.alignment.mount("team-web/alignment.water")
 ctx.alignment.share()
 
-ctx.significance = Cell("text")
+ctx.significance = Cell("plain")
 ctx.significance.mount("team-web/significance.json")
 ctx.significance.share()
 
