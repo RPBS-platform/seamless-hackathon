@@ -37,7 +37,7 @@ ctx.test1.scrambled2.mount("team-bash/scrambled2.txt")
 ctx.align_scrambled = Transformer()
 ctx.align_scrambled.language = "docker"
 ctx.align_scrambled.docker_image = "pegi3s/emboss"
-ctx.align_scrambled.scrambled1 = ctx.test1.scrambled1se
+ctx.align_scrambled.scrambled1 = ctx.test1.scrambled1
 ctx.align_scrambled.scrambled2 = ctx.test1.scrambled2
 ctx.align_scrambled.code.mount("eam-bash/align_scrambled.bash")
 
