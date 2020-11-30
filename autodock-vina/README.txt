@@ -1,0 +1,1 @@
+Command line and example files downloaded from Webina (https://durrantlab.pitt.edu/webina/), Apache license 2.0
