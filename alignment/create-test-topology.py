@@ -39,7 +39,7 @@ ctx.align_scrambled.language = "docker"
 ctx.align_scrambled.docker_image = "pegi3s/emboss"
 ctx.align_scrambled.scrambled1 = ctx.test1.scrambled1
 ctx.align_scrambled.scrambled2 = ctx.test1.scrambled2
-ctx.align_scrambled.code.mount("eam-bash/align_scrambled.bash")
+ctx.align_scrambled.code.mount("team-bash/align_scrambled.bash")
 
 ctx.test1.scrambled_scores = ctx.align_scrambled
 ctx.test1.scrambled_scores.celltype = "text"
