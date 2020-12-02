@@ -1,0 +1,42 @@
+Technical test
+==============
+
+1. Check that everyone can see and hear me, camera and screen share.
+Don't be shy!!
+Volunteer code:
+participants = ["chloe","david","dominique","fanny","florent","jessica","magali","pascal","pierre","raphael","stephane","yasaman"]
+import random
+volunteer = lambda: random.choice(participants)
+
+2. Show deployed instance, via screen
+Then check that everyone can see in browser:
+https://seamless.rpbs.univ-paris-diderot.fr/cloudless/instance/8009795/ctx/index.html
+Ask volunteers to change fields
+
+3. Launch locally (show on screen)
+seamless-bash
+cd ~/seamless-tests/highlevel
+ipython3 -i ~/seamless-scripts/serve-graph.py -- share-pdb.seamless share-pdb.zip --status-graph ~/software/seamless/graphs/status-visualization.seamless --add-zip ~/software/seamless/graphs/status-visualization.zip --interactive --mount 1
+
+4. Ask people to go to local version (kill cloudless instance)
+Make sure everyone is in live share session
+http://localhost:5813
+In the IPython prompt:
+ctx.code = "grep CA filtered_pdb > RESULT"
+
+5:
+- Ask if people can see me type in terminal
+- Ask volunteer to type in terminal
+
+6:
+ctx.pdb.mount("/tmp/pdb.pdb")
+ctx.translate()
+Ask to refresh browser
+Outside the Docker container: code /tmp/code.bash /tmp/filter_code.bash /tmp/pdb.pdb
+Ask volunteers to change files
+
+Presentation
+============
+
+Back to screen sharing. Present until simplest dependency graph
+Then open intro
