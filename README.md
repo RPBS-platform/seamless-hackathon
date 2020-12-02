@@ -8,6 +8,7 @@ This is the Git repository for the RPBS Seamless hackathon, Dec 3rd 2020.
 - Stéphane Bourg, CNRS Orleans
 - Dominique Douguet, IPMC
 - Raphael Guerois, CEA Saclay
+- Magali Hennion, Paris Epigenetics
 - Yasaman Karami, Institut Pasteur
 - Pascal Krezel, CNRS Orleans
 - Florent Langenfeld, CNAM

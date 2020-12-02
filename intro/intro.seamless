@@ -1,0 +1,107 @@
+{
+  "connections": [
+    {
+      "source": [
+        "a"
+      ],
+      "target": [
+        "add",
+        "a"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "b"
+      ],
+      "target": [
+        "add",
+        "b"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "add"
+      ],
+      "target": [
+        "result"
+      ],
+      "type": "connection"
+    }
+  ],
+  "lib": [],
+  "nodes": [
+    {
+      "celltype": "structured",
+      "checksum": {
+        "auth": "191fb5fc4a9bf2ded9a09a0a2c4eb3eb90f15ee96deb1eec1a970df0a79d09ba",
+        "buffer": "191fb5fc4a9bf2ded9a09a0a2c4eb3eb90f15ee96deb1eec1a970df0a79d09ba",
+        "value": "191fb5fc4a9bf2ded9a09a0a2c4eb3eb90f15ee96deb1eec1a970df0a79d09ba"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "path": [
+        "a"
+      ],
+      "type": "cell"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "1cbba7cc10e067273fdec7cc350d2b87508c1959d26bbab4f628f6f59ec49607",
+        "result": "ba6ba8dcc8a2d9789f1221df37b27ca157b1b40817cde05eadb5c6075e5dd1c3"
+      },
+      "compiled": false,
+      "debug": false,
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "python",
+      "path": [
+        "add"
+      ],
+      "pins": {
+        "a": {
+          "celltype": "mixed"
+        },
+        "b": {
+          "celltype": "mixed"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "auth": "a3b9a39c707177f10d440c071303df8beff535c40c7c25e92da187b14aac127e",
+        "buffer": "a3b9a39c707177f10d440c071303df8beff535c40c7c25e92da187b14aac127e",
+        "value": "a3b9a39c707177f10d440c071303df8beff535c40c7c25e92da187b14aac127e"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "path": [
+        "b"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "structured",
+      "checksum": {
+        "buffer": "ba6ba8dcc8a2d9789f1221df37b27ca157b1b40817cde05eadb5c6075e5dd1c3",
+        "value": "ba6ba8dcc8a2d9789f1221df37b27ca157b1b40817cde05eadb5c6075e5dd1c3"
+      },
+      "datatype": "mixed",
+      "hash_pattern": null,
+      "path": [
+        "result"
+      ],
+      "type": "cell"
+    }
+  ],
+  "params": {
+    "share_namespace": "ctx"
+  }
+}
