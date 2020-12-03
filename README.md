@@ -15,8 +15,6 @@ This is the Git repository for the RPBS Seamless hackathon, Dec 3rd 2020.
 - David Mignon, Polytechnique
 - Chloé Quignot, CEA Saclay
 - Pierre Tufféry, RPBS platform
-- Sjoerd de Vries, RPBS platform (host)
-
 ## Program
 
 **9h00** 	Testing hour

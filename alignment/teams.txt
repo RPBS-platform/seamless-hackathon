@@ -2,24 +2,35 @@
 
 ***Bash team***
 ...
+David Mignon
 
 ***Python team***
 ...
+Yasaman
+Chloe Quignot
+Raphael Guerois
+Jessica Andreani
+Pierre Tuffery
+Pascal Krezel
 
 ***Web interface team***
-...
+Magali Hennion
+Julien Rey
+Fanny Bonachera
+
 
 
 Participants:
 
 Jessica Andreani
-Fanny Bonachera
 Stéphane Bourg
 Dominique Douguet
-Raphael Guerois
+
+Magali Hennion
 Yasaman Karami
 Pascal Krezel
 Florent Langenfeld
 David Mignon
 Chloé Quignot
+Julien Rey
 Pierre Tufféry

@@ -1,0 +1,112 @@
+{
+  "connections": [
+  ],
+  "lib": [],
+  "nodes": [
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "56c49d4a67f0913c0318594c40d7377723a1d0e350cad4f1da0d66baa0f0cfd1"
+      },
+      "datatype": "mixed",
+      "file_extension": "js",
+      "mimetype": "application/javascript",
+      "mount": {
+        "authority": "file",
+        "mode": "r",
+        "path": "seamless-client.js",
+        "persistent": true
+      },
+      "path": [
+        "client_js"
+      ],
+      "share": {
+        "path": "seamless-client.js",
+        "readonly": true
+      },
+      "type": "cell"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "cf66629dca88fcf514980c5a9a5d767439dabbbe64a299f2e9aa36cba75bcfa0",
+        "input": "4492e91efcdfff2539238f07d5d5197e3e07c50efb4dfb4dd2375a14f01d0093",
+        "input_auth": "4492e91efcdfff2539238f07d5d5197e3e07c50efb4dfb4dd2375a14f01d0093",
+        "input_buffer": "4492e91efcdfff2539238f07d5d5197e3e07c50efb4dfb4dd2375a14f01d0093"
+      },
+      "compiled": false,
+      "debug": false,
+      "file_extension": "sh",
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "docker",
+      "path": [
+        "frag"
+      ],
+      "pins": {
+        "docker_image": {
+          "celltype": "mixed"
+        },
+        "docker_options": {
+          "celltype": "mixed"
+        },
+        "t": {
+          "celltype": "mixed"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "38448ba28aaecdf20725ac30385d573366034b858b9fba4dd974ee4ca267e3b9"
+      },
+      "datatype": "mixed",
+      "file_extension": "html",
+      "mimetype": "text/html",
+      "mount": {
+        "authority": "file",
+        "mode": "rw",
+        "path": "index.html",
+        "persistent": true
+      },
+      "path": [
+        "html"
+      ],
+      "share": {
+        "path": "index.html",
+        "readonly": true
+      },
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "bf25bb8dee4faeeb5b53a6fb0c8b026ccfc0340931df37095d397f372b0d39bf"
+      },
+      "datatype": "mixed",
+      "file_extension": "js",
+      "mimetype": "application/javascript",
+      "mount": {
+        "authority": "file",
+        "mode": "rw",
+        "path": "index.js",
+        "persistent": true
+      },
+      "path": [
+        "js"
+      ],
+      "share": {
+        "path": "index.js",
+        "readonly": true
+      },
+      "type": "cell"
+    }
+  ],
+  "params": {
+    "share_namespace": "ctx"
+  }
+}

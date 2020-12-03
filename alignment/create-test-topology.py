@@ -80,7 +80,7 @@ ctx.test2.alignment = Cell("text")
 ctx.test2.alignment.mount("team-python/alignment.water")
 
 ctx.test2.scrambled_scores = Cell("text")
-ctx.test2.scrambled_scores.mount("team-python/scrambled_scores.txt", "w")
+ctx.test2.scrambled_scores.mount("team-python/scrambled_scores.txt")
 
 ctx.analyze_alignment_scores = Transformer()
 ctx.analyze_alignment_scores.alignment = ctx.test2.alignment

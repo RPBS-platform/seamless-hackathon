@@ -1,0 +1,232 @@
+{
+  "connections": [
+    {
+      "source": [
+        "code"
+      ],
+      "target": [
+        "frag",
+        "code"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "l"
+      ],
+      "target": [
+        "frag",
+        "l"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "t"
+      ],
+      "target": [
+        "frag",
+        "t"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "u"
+      ],
+      "target": [
+        "frag",
+        "u"
+      ],
+      "type": "connection"
+    },
+    {
+      "source": [
+        "frag"
+      ],
+      "target": [
+        "svm"
+      ],
+      "type": "connection"
+    }
+  ],
+  "lib": [],
+  "nodes": [
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "56c49d4a67f0913c0318594c40d7377723a1d0e350cad4f1da0d66baa0f0cfd1"
+      },
+      "datatype": "mixed",
+      "file_extension": "js",
+      "mimetype": "application/javascript",
+      "mount": {
+        "authority": "file",
+        "mode": "r",
+        "path": "seamless-client.js",
+        "persistent": true
+      },
+      "path": [
+        "client_js"
+      ],
+      "share": {
+        "path": "seamless-client.js",
+        "readonly": true
+      },
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "9a258ffefaeda1d4771cf126bed974124940ec01d63f572f97d743beb88c7869"
+      },
+      "datatype": "mixed",
+      "mount": {
+        "authority": "file",
+        "mode": "rw",
+        "path": "code.bash",
+        "persistent": true
+      },
+      "path": [
+        "code"
+      ],
+      "type": "cell"
+    },
+    {
+      "INPUT": "inp",
+      "RESULT": "result",
+      "SCHEMA": null,
+      "checksum": {
+        "code": "9a258ffefaeda1d4771cf126bed974124940ec01d63f572f97d743beb88c7869",
+        "input": "bbeea7df7c244f19672e25e67d65f9d0c1c6dc100ed1313ba2b8c4ff60aac6d7",
+        "input_auth": "4492e91efcdfff2539238f07d5d5197e3e07c50efb4dfb4dd2375a14f01d0093",
+        "input_buffer": "bbeea7df7c244f19672e25e67d65f9d0c1c6dc100ed1313ba2b8c4ff60aac6d7",
+        "result": "b546b219ff1f729ed769b44931e32ca0008134c40fce5d9d793da1f34b6c0823"
+      },
+      "compiled": false,
+      "debug": false,
+      "file_extension": "sh",
+      "hash_pattern": {
+        "*": "#"
+      },
+      "language": "docker",
+      "path": [
+        "frag"
+      ],
+      "pins": {
+        "docker_image": {
+          "celltype": "mixed"
+        },
+        "docker_options": {
+          "celltype": "mixed"
+        },
+        "l": {
+          "celltype": "mixed"
+        },
+        "t": {
+          "celltype": "mixed"
+        },
+        "u": {
+          "celltype": "mixed"
+        }
+      },
+      "type": "transformer"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "1845f9451164d6df36cf324a9b2805e9868aff294382703490ae99554480a208"
+      },
+      "datatype": "mixed",
+      "file_extension": "html",
+      "mimetype": "text/html",
+      "mount": {
+        "authority": "file",
+        "mode": "rw",
+        "path": "index.html",
+        "persistent": true
+      },
+      "path": [
+        "html"
+      ],
+      "share": {
+        "path": "index.html",
+        "readonly": true
+      },
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "14b0672f92d2bc91b5ec4ef0a9e9cfb1753e2df9f5db6b2494338048eb599917"
+      },
+      "datatype": "mixed",
+      "file_extension": "js",
+      "mimetype": "application/javascript",
+      "mount": {
+        "authority": "file",
+        "mode": "rw",
+        "path": "index.js",
+        "persistent": true
+      },
+      "path": [
+        "js"
+      ],
+      "share": {
+        "path": "index.js",
+        "readonly": true
+      },
+      "type": "cell"
+    },
+    {
+      "celltype": "int",
+      "checksum": {
+        "value": "191fb5fc4a9bf2ded9a09a0a2c4eb3eb90f15ee96deb1eec1a970df0a79d09ba"
+      },
+      "datatype": "mixed",
+      "path": [
+        "l"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "text",
+      "checksum": {
+        "value": "4a583f16797a4742e29c2d0ec40fae59324a6d18db3799d5482ce1ccf43aa91d"
+      },
+      "datatype": "mixed",
+      "mount": {
+        "authority": "file",
+        "mode": "rw",
+        "path": "result.svm",
+        "persistent": true
+      },
+      "path": [
+        "svm"
+      ],
+      "share": {
+        "path": null,
+        "readonly": true
+      },
+      "type": "cell"
+    },
+    {
+      "celltype": "int",
+      "checksum": {
+        "value": "0f91abf611686bc372fc850fbe9023f44922ec730400d7e17452d927d9970eb2"
+      },
+      "datatype": "mixed",
+      "path": [
+        "t"
+      ],
+      "type": "cell"
+    },
+    {
+      "celltype": "int",
+      "checksum": {
+        "value": "0c3ec9639d3a203f898368b5fb060422fe3c08767c1e50684535ac3cb182d3ca"
+      },
+      "datatype": "mixed",
+      "path": [
+        "u"
+      ],

@@ -1,4 +1,4 @@
-Protein sequence 1 & 2:
+Protecin sequence 1 & 2:
     Type: data (web user inputs)
     Name: seq1, seq2
     Format: raw text
